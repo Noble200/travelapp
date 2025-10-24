@@ -1,0 +1,12 @@
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Billetes\bin\Debug\net8.0\Allva.Modules.Billetes.deps.json
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Billetes\bin\Debug\net8.0\Allva.Modules.Billetes.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Billetes\bin\Debug\net8.0\Allva.Modules.Billetes.pdb
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Billetes\obj\Debug\net8.0\Allva.Modules.Billetes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Billetes\obj\Debug\net8.0\Allva.Modules.Billetes.AssemblyInfoInputs.cache
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Billetes\obj\Debug\net8.0\Allva.Modules.Billetes.AssemblyInfo.cs
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Billetes\obj\Debug\net8.0\Allva.Modules.Billetes.csproj.CoreCompileInputs.cache
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Billetes\obj\Debug\net8.0\Allva.Modules.Billetes.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Billetes\obj\Debug\net8.0\refint\Allva.Modules.Billetes.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Billetes\obj\Debug\net8.0\Allva.Modules.Billetes.pdb
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Billetes\obj\Debug\net8.0\ref\Allva.Modules.Billetes.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Billetes\obj\Debug\net8.0\Allva.Modules.Billetes.sourcelink.json

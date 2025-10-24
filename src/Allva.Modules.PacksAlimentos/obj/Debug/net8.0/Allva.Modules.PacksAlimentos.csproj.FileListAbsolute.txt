@@ -1,0 +1,12 @@
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksAlimentos\bin\Debug\net8.0\Allva.Modules.PacksAlimentos.deps.json
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksAlimentos\bin\Debug\net8.0\Allva.Modules.PacksAlimentos.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksAlimentos\bin\Debug\net8.0\Allva.Modules.PacksAlimentos.pdb
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksAlimentos\obj\Debug\net8.0\Allva.Modules.PacksAlimentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksAlimentos\obj\Debug\net8.0\Allva.Modules.PacksAlimentos.AssemblyInfoInputs.cache
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksAlimentos\obj\Debug\net8.0\Allva.Modules.PacksAlimentos.AssemblyInfo.cs
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksAlimentos\obj\Debug\net8.0\Allva.Modules.PacksAlimentos.csproj.CoreCompileInputs.cache
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksAlimentos\obj\Debug\net8.0\Allva.Modules.PacksAlimentos.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksAlimentos\obj\Debug\net8.0\refint\Allva.Modules.PacksAlimentos.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksAlimentos\obj\Debug\net8.0\Allva.Modules.PacksAlimentos.pdb
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksAlimentos\obj\Debug\net8.0\ref\Allva.Modules.PacksAlimentos.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksAlimentos\obj\Debug\net8.0\Allva.Modules.PacksAlimentos.sourcelink.json

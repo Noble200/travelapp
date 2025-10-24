@@ -1,0 +1,253 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:Allva.Desktop.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="1200" d:DesignHeight="800"
+             x:Class="Allva.Desktop.Views.LoginView"
+             x:DataType="vm:LoginViewModel">
+
+    <!-- ============================================ -->
+    <!-- ESTILOS LOCALES -->
+    <!-- ============================================ -->
+    <UserControl.Styles>
+        <StyleInclude Source="LoginView.Styles.axaml"/>
+    </UserControl.Styles>
+
+    <!-- ============================================ -->
+    <!-- CONTENIDO PRINCIPAL -->
+    <!-- ============================================ -->
+    <Grid Background="#ffd966">
+        
+        <!-- Fondo decorativo con gradiente -->
+        <Border Background="Transparent">
+            <Border.OpacityMask>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#40FFFFFF" Offset="0"/>
+                    <GradientStop Color="#00FFFFFF" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.OpacityMask>
+        </Border>
+
+        <!-- ════════════════════════════════ -->
+        <!-- BOTÓN CAMBIAR IDIOMA - Esquina superior derecha -->
+        <!-- ════════════════════════════════ -->
+        <Button Classes="btnIdioma"
+                Command="{Binding CambiarIdiomaCommand}"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Margin="0,30,30,0"
+                ToolTip.Tip="Change language / Cambiar idioma">
+            <StackPanel Spacing="2">
+                <TextBlock Classes="textoIdioma" 
+                          Text="{Binding Localization.CurrentLanguageFlag}"/>
+                <TextBlock Classes="labelIdioma" 
+                          Text="{Binding Localization.CurrentLanguageCode}"/>
+            </StackPanel>
+        </Button>
+
+        <!-- Contenedor centrado -->
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+            
+            <!-- Panel de Login -->
+            <Border Classes="panelLogin">
+                
+                <StackPanel Spacing="25">
+                    
+                    <!-- ════════════════════════════════ -->
+                    <!-- LOGO -->
+                    <!-- ════════════════════════════════ -->
+                    <Border Classes="logoContainer" 
+                            HorizontalAlignment="Center"
+                            Margin="0,0,0,15">
+                        <Image Source="/Assets/logo-allva.png" 
+                               Height="80"
+                               Stretch="Uniform"/>
+                    </Border>
+
+                    <!-- ════════════════════════════════ -->
+                    <!-- TÍTULO -->
+                    <!-- ════════════════════════════════ -->
+                    <TextBlock Classes="tituloLogin"
+                              Text="{Binding Localization[Login_Title]}"
+                              HorizontalAlignment="Center"/>
+
+                    <!-- ════════════════════════════════ -->
+                    <!-- MENSAJE DE ERROR -->
+                    <!-- ════════════════════════════════ -->
+                    <Border Classes="mensajeError" 
+                            IsVisible="{Binding MostrarError}">
+                        <Grid ColumnDefinitions="Auto,*">
+                            <TextBlock Grid.Column="0" 
+                                      Text="⚠️" 
+                                      FontSize="18"
+                                      Margin="0,0,10,0"/>
+                            <TextBlock Grid.Column="1" 
+                                      Text="{Binding MensajeError}"
+                                      TextWrapping="Wrap"
+                                      Classes="textoError"/>
+                        </Grid>
+                    </Border>
+
+                    <!-- ════════════════════════════════ -->
+                    <!-- FORMULARIO -->
+                    <!-- ════════════════════════════════ -->
+                    <StackPanel Spacing="20">
+                        
+                        <!-- Campo: Usuario -->
+                        <StackPanel Spacing="8">
+                            <TextBlock Classes="labelCampo" 
+                                      Text="{Binding Localization[Login_User]}"/>
+                            <TextBox Classes="inputLogin"
+                                    Text="{Binding NumeroUsuario}"
+                                    Watermark="{Binding Localization[Login_UserPlaceholder]}"
+                                    IsEnabled="{Binding !IsLoading}">
+                                <TextBox.InnerLeftContent>
+                                    <Border Margin="10,0,0,0">
+                                        <TextBlock Text="👤" FontSize="18"/>
+                                    </Border>
+                                </TextBox.InnerLeftContent>
+                            </TextBox>
+                        </StackPanel>
+
+                        <!-- Campo: Código Local -->
+                        <StackPanel Spacing="8">
+                            <TextBlock Classes="labelCampo" 
+                                      Text="{Binding Localization[Login_Office]}"/>
+                            <TextBox Classes="inputLogin"
+                                    Text="{Binding CodigoLocal}"
+                                    Watermark="{Binding Localization[Login_OfficePlaceholder]}"
+                                    IsEnabled="{Binding !IsLoading}">
+                                <TextBox.InnerLeftContent>
+                                    <Border Margin="10,0,0,0">
+                                        <TextBlock Text="🏪" FontSize="18"/>
+                                    </Border>
+                                </TextBox.InnerLeftContent>
+                            </TextBox>
+                        </StackPanel>
+
+                        <!-- Campo: Contraseña -->
+                        <StackPanel Spacing="8">
+                            <TextBlock Classes="labelCampo" 
+                                      Text="{Binding Localization[Login_Password]}"/>
+                            <TextBox Classes="inputLogin"
+                                    Text="{Binding Password}"
+                                    PasswordChar="●"
+                                    Watermark="{Binding Localization[Login_PasswordPlaceholder]}"
+                                    IsEnabled="{Binding !IsLoading}">
+                                <TextBox.InnerLeftContent>
+                                    <Border Margin="10,0,0,0">
+                                        <TextBlock Text="🔒" FontSize="18"/>
+                                    </Border>
+                                </TextBox.InnerLeftContent>
+                            </TextBox>
+                        </StackPanel>
+
+                        <!-- Checkbox: Recordar sesión -->
+                        <CheckBox Content="{Binding Localization[Login_Remember]}"
+                                 IsChecked="{Binding RecordarSesion}"
+                                 Classes="checkboxRecordar"
+                                 IsEnabled="{Binding !IsLoading}"/>
+
+                    </StackPanel>
+
+                    <!-- ════════════════════════════════ -->
+                    <!-- BOTÓN INICIAR SESIÓN -->
+                    <!-- ════════════════════════════════ -->
+                    <Button Classes="btnLogin"
+                            Command="{Binding LoginCommand}"
+                            IsEnabled="{Binding !IsLoading}">
+                        
+                        <!-- Contenido del botón con loading -->
+                        <Grid>
+                            <!-- Texto normal -->
+                            <TextBlock Text="{Binding Localization[Login_Button]}"
+                                      IsVisible="{Binding !IsLoading}"
+                                      HorizontalAlignment="Center"/>
+                            
+                            <!-- Loading spinner -->
+                            <StackPanel Orientation="Horizontal" 
+                                       HorizontalAlignment="Center"
+                                       IsVisible="{Binding IsLoading}">
+                                <Border Classes="spinner" Margin="0,0,10,0"/>
+                                <TextBlock Text="{Binding Localization[Login_Loading]}"/>
+                            </StackPanel>
+                        </Grid>
+                    </Button>
+
+                    <!-- ════════════════════════════════ -->
+                    <!-- ENLACE: Olvidé mi contraseña -->
+                    <!-- ════════════════════════════════ -->
+                    <Button Classes="btnRecuperarPassword"
+                            Command="{Binding RecuperarPasswordCommand}"
+                            IsEnabled="{Binding !IsLoading}"
+                            HorizontalAlignment="Center">
+                        <TextBlock Classes="textoEnlace"
+                                  Text="{Binding Localization[Login_ForgotPassword]}"/>
+                    </Button>
+
+                    <!-- ════════════════════════════════ -->
+                    <!-- INFORMACIÓN ADICIONAL -->
+                    <!-- ════════════════════════════════ -->
+                    <Border Classes="infoFooter">
+                        <StackPanel Spacing="5">
+                            <TextBlock Classes="textoInfo"
+                                      Text="{Binding Localization[Login_SecureConnection]}"
+                                      HorizontalAlignment="Center"/>
+                            <TextBlock Classes="textoInfoSmall"
+                                      Text="{Binding Localization[Login_SecureInfo]}"
+                                      HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- ════════════════════════════════ -->
+                    <!-- VERSIÓN Y SOPORTE -->
+                    <!-- ════════════════════════════════ -->
+                    <Grid ColumnDefinitions="*,Auto">
+                        <StackPanel Grid.Column="0" Orientation="Horizontal" Spacing="5">
+                            <TextBlock Classes="textoVersion"
+                                      Text="{Binding Localization[Login_Version]}"/>
+                            <TextBlock Classes="textoVersion"
+                                      Text="1.0.0"/>
+                        </StackPanel>
+                        <Button Grid.Column="1"
+                               Classes="btnSoporte"
+                               Content="{Binding Localization[Login_Support]}"
+                               HorizontalAlignment="Right"/>
+                    </Grid>
+
+                </StackPanel>
+            </Border>
+
+            <!-- ════════════════════════════════ -->
+            <!-- OVERLAY DE CARGA (pantalla completa) -->
+            <!-- ════════════════════════════════ -->
+            <Border Background="#CC000000" 
+                    IsVisible="{Binding IsLoading}"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch">
+                <StackPanel HorizontalAlignment="Center" 
+                           VerticalAlignment="Center"
+                           Spacing="20">
+                    <Border Classes="spinnerGrande"/>
+                    <TextBlock Text="Verificando credenciales..."
+                              Foreground="White"
+                              FontSize="16"
+                              HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+
+        </Grid>
+
+        <!-- ════════════════════════════════ -->
+        <!-- COPYRIGHT EN LA PARTE INFERIOR -->
+        <!-- ════════════════════════════════ -->
+        <TextBlock Classes="textoCopyright"
+                  Text="{Binding Localization[Login_Copyright]}"
+                  HorizontalAlignment="Center"
+                  VerticalAlignment="Bottom"
+                  Margin="0,0,0,20"/>
+
+    </Grid>
+
+</UserControl>

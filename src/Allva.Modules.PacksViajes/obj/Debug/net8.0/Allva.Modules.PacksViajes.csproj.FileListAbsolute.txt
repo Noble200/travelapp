@@ -1,0 +1,12 @@
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksViajes\bin\Debug\net8.0\Allva.Modules.PacksViajes.deps.json
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksViajes\bin\Debug\net8.0\Allva.Modules.PacksViajes.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksViajes\bin\Debug\net8.0\Allva.Modules.PacksViajes.pdb
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksViajes\obj\Debug\net8.0\Allva.Modules.PacksViajes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksViajes\obj\Debug\net8.0\Allva.Modules.PacksViajes.AssemblyInfoInputs.cache
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksViajes\obj\Debug\net8.0\Allva.Modules.PacksViajes.AssemblyInfo.cs
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksViajes\obj\Debug\net8.0\Allva.Modules.PacksViajes.csproj.CoreCompileInputs.cache
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksViajes\obj\Debug\net8.0\Allva.Modules.PacksViajes.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksViajes\obj\Debug\net8.0\refint\Allva.Modules.PacksViajes.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksViajes\obj\Debug\net8.0\Allva.Modules.PacksViajes.pdb
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksViajes\obj\Debug\net8.0\ref\Allva.Modules.PacksViajes.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.PacksViajes\obj\Debug\net8.0\Allva.Modules.PacksViajes.sourcelink.json

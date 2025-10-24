@@ -1,0 +1,12 @@
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Core\bin\Debug\net8.0\Allva.Core.deps.json
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Core\bin\Debug\net8.0\Allva.Core.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Core\bin\Debug\net8.0\Allva.Core.pdb
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Core\obj\Debug\net8.0\Allva.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Core\obj\Debug\net8.0\Allva.Core.AssemblyInfoInputs.cache
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Core\obj\Debug\net8.0\Allva.Core.AssemblyInfo.cs
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Core\obj\Debug\net8.0\Allva.Core.csproj.CoreCompileInputs.cache
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Core\obj\Debug\net8.0\Allva.Core.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Core\obj\Debug\net8.0\refint\Allva.Core.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Core\obj\Debug\net8.0\Allva.Core.pdb
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Core\obj\Debug\net8.0\ref\Allva.Core.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Core\obj\Debug\net8.0\Allva.Core.sourcelink.json

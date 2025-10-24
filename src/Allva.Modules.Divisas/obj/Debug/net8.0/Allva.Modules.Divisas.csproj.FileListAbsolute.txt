@@ -1,0 +1,12 @@
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Divisas\bin\Debug\net8.0\Allva.Modules.Divisas.deps.json
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Divisas\bin\Debug\net8.0\Allva.Modules.Divisas.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Divisas\bin\Debug\net8.0\Allva.Modules.Divisas.pdb
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Divisas\obj\Debug\net8.0\Allva.Modules.Divisas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Divisas\obj\Debug\net8.0\Allva.Modules.Divisas.AssemblyInfoInputs.cache
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Divisas\obj\Debug\net8.0\Allva.Modules.Divisas.AssemblyInfo.cs
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Divisas\obj\Debug\net8.0\Allva.Modules.Divisas.csproj.CoreCompileInputs.cache
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Divisas\obj\Debug\net8.0\Allva.Modules.Divisas.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Divisas\obj\Debug\net8.0\refint\Allva.Modules.Divisas.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Divisas\obj\Debug\net8.0\Allva.Modules.Divisas.pdb
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Divisas\obj\Debug\net8.0\ref\Allva.Modules.Divisas.dll
+C:\Users\Ruso\Desktop\AllvaSystem\src\Allva.Modules.Divisas\obj\Debug\net8.0\Allva.Modules.Divisas.sourcelink.json
